@@ -37,8 +37,8 @@ function Blog() {
                         <path
                           d="M5.75 12.5L10.25 8L5.75 3.5"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           strokeLinejoin="round"
                         />
                       </svg>
@@ -81,8 +81,8 @@ function Blog() {
                         <path
                           d="M5.75 12.5L10.25 8L5.75 3.5"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           strokeLinejoin="round"
                         />
                       </svg>
@@ -126,8 +126,8 @@ function Blog() {
                       <path
                         d="M5.75 12.5L10.25 8L5.75 3.5"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
                       />
                     </svg>
@@ -177,8 +177,8 @@ function Blog() {
                       <path
                         d="M5.75 12.5L10.25 8L5.75 3.5"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
                       />
                     </svg>
@@ -227,8 +227,8 @@ function Blog() {
                         <path
                           d="M5.75 12.5L10.25 8L5.75 3.5"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           strokeLinejoin="round"
                         />
                       </svg>
@@ -271,8 +271,8 @@ function Blog() {
                         <path
                           d="M5.75 12.5L10.25 8L5.75 3.5"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           strokeLinejoin="round"
                         />
                       </svg>
