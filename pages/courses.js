@@ -2,8 +2,9 @@ import React from "react";
 import SEO from "@bradgarropy/next-seo";
 import Image from "next/image";
 import course from "../public/course.jpg";
-import Courseinfo from "../components/Courseinfo";
 import Contact from "../components/Contact";
+import Jeevanidhi from "../components/Jeevanidhi";
+
 import Callorchat from "../components/Callorchat";
 
 function courses() {
@@ -38,7 +39,7 @@ function courses() {
                 </div>
                 <div className="md:w-full xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                   <div className="w-full">
-                    <Courseinfo />
+                    <Jeevanidhi />
                   </div>
                 </div>
               </div>
