@@ -2,13 +2,11 @@ import React from "react";
 import { GiMaterialsScience } from "react-icons/gi";
 import { TbArrowBigDownLines } from "react-icons/tb";
 
-function Courseinfo() {
+function Jeevanidhi() {
   return (
     <div className="container bg-tertiary_light bg-opacity-25">
       <div className="px-5 py-20 max-w-xl mx-auto flex flex-col">
-        <h2 className=" font-semibold text-center mb-10">
-          Some of our Courses
-        </h2>
+        <h2 className=" font-semibold text-center mb-10">Jeeva Nidhi</h2>
         <div className="w-full overflow-hidden relative">
           <input
             type="checkbox"
@@ -16,7 +14,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Science Courses
+              After Death
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -88,7 +86,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Commerce Courses
+              Acidental
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -126,7 +124,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Humanities Courses
+              Educational Fundings
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -180,7 +178,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Management Courses
+              Womens Marrige Fundings
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -252,7 +250,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Law Courses
+              Permenantly Illed people
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -282,7 +280,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Medical Courses
+              Old age
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -318,7 +316,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Paramedical Courses
+              Houseing Funds
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -397,7 +395,7 @@ function Courseinfo() {
           />
           <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
             <h1 className="text-lg font-semibold text-white flex items-center">
-              Engineering
+              Working Tools
             </h1>
           </div>
           <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
@@ -480,69 +478,9 @@ function Courseinfo() {
             </div>
           </div>
         </div>
-        <div className="w-full overflow-hidden relative">
-          <input
-            type="checkbox"
-            className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
-          />
-          <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
-            <h1 className="text-lg font-semibold text-white flex items-center">
-              PolyTechnic
-            </h1>
-          </div>
-          <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
-            <TbArrowBigDownLines />
-          </div>
-          <div className="bg-secondary_light bg-opacity-20 shadow-lg peer-checked:max-h-[100vh] max-h-0 transition-all duration-500">
-            <div className="p-4">
-              <p>
-                🔧Civil engineering
-                <br />
-                🔧Mechanical engineering
-                <br />
-                🔧Automobile. engineering
-                <br />
-                🔧Computer science engineering
-                <br />
-                🔧Electronics and communication Engineering
-                <br />
-                🔧Electrical engineering
-                <br />
-                🔧Petro chemical engineering
-                <br />
-                And Many More………..
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="w-full overflow-hidden relative">
-          <input
-            type="checkbox"
-            className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
-          />
-          <div className="bg-secondary_light rounded-sm h-12 w-full pl-5 flex items-center">
-            <h1 className="text-lg font-semibold text-white flex items-center">
-              Architecture
-            </h1>
-          </div>
-          <div className="absolute top-4 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
-            <TbArrowBigDownLines />
-          </div>
-          <div className="bg-secondary_light bg-opacity-20 shadow-lg peer-checked:max-h-[100vh] max-h-0 transition-all duration-500">
-            <div className="p-4">
-              <p>
-                🎢B.Arch (NATAis Compulsory)
-                <br />
-                🎢M.Arch
-                <br />
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 }
 
-export default Courseinfo;
+export default Jeevanidhi;

@@ -21,3 +21,10 @@ h2 {
 a {
   @apply rounded;
 }
+
+@media (min-width: 768px) {
+  .halflanding {
+    background-image: url("/pic1.jpg");
+    background-position: top, left;
+  }
+}
