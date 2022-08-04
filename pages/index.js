@@ -45,62 +45,33 @@ export default function Home() {
         description="We’re here to offer the best support, to help you troubleshoot any career related issues and superior education"
       />
       <main>
-        <div className="container">
-          <div className="flex items-center justify-between h-full w-full absolute z-0">
-            <div className="w-1/3 bg-white h-full" />
-            <div className="w-4/6 halflanding ml-16 bg-secondary_light bg-opacity-25 h-full rounded" />
-          </div>
-          <div className="xl:px-20 h-[90vh] px-8 flex flex-col justify-center text-primary pt-5 2xl:mx-auto  2xl:container relative z-40">
-            <h1 className="text-5xl font-bold xl:block hidden leading-tight ">
-              All Kerala Marbles and Tiles Workers Association
-            </h1>
-            <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-primary">
-              All Kerala Marbles and Tiles Workers Association
-            </h1>
-            <div className="flex">
-              <div className="mt-14 md:flex">
-                <div className="relative lg:w-1/2 sm:w-96">
-                  <div>
-                    <h1 className="text-2xl font-semibold ">
-                      We’re here to offer the best support, to help you
-                      troubleshoot any career related issues and superior
-                      education
-                    </h1>
-                    <p className="text-base font-medium leading-6 mt-4">
-                      We are pioneers in career guidance and admission
-                      assistance.
-                      <br />
-                      <span className=" font-semibold">
-                        Lia International
-                      </span>{" "}
-                      is devoted to providing « direction to prospective
-                      students to pursue their career, guiding them with a
-                      comprehensive umbrella of services right from their choice
-                      of college / university
-                    </p>
-                  </div>
-                  <div className="md:mt-0 mt-8">
-                    <p className="text-left mt-5 p-5 w-fit flex items-center rounded bg-tertiary bg-opacity-25  space-x-10">
-                      Scroll Down
-                      <BsArrowDown className="ml-2" />
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div className="container mx-auto mt-20">
+          <div className="relative w-full px-0 md:px-20">
+            <div className="absolute text-white pl-5 pb-5 z-10 bottom-0">
+              <h1 className="text-5xl text-white">
+                All Kerala Marbles and Tiles Workers Association
+              </h1>
+              <p>
+                We’re here to offer the best support, to help you troubleshoot
+                any career related issues and superior education
+              </p>
+            </div>
+            <div className="relative w-full h-[40vh] md:h-[60vh] opacity-80 rounded-none md:rounded  overflow-hidden">
+              <Image src={pic1} objectFit="cover" layout="fill" />
             </div>
           </div>
         </div>
 
-        <div className="container mb-96">
+        <div className="container mb-96 mt-20">
           <div className="flex items-center justify-between py-10 h-full w-full absolute z-0">
-            <div className="w-1/3  bg-secondary_light bg-opacity-25 h-full" />
-            <div className="w-4/6 ml-16  bg-white h-full" />
+            <div className="w-1/3  bg-white bg-opacity-25 h-full" />
+            <div className="w-4/6 ml-16  bg-secondary h-full" />
           </div>
           <div className="xl:px-20 px-8 py-20 2xl:mx-auto 2xl:container relative z-40">
             <h1 className="text-5xl font-semibold">About Our Founder</h1>
             <div className="flex">
               <div className="mt-14 md:flex">
-                <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-full">
+                <div className="relative lg:w-96 sm:w-96 xl:h-96 h-full">
                   <Image
                     src={founder}
                     alt="AKMTWA Founder Image "
@@ -108,9 +79,9 @@ export default function Home() {
                     className="w-full h-full flex-shrink-0 object-fit object-top object-cover shadow-lg rounded"
                   />
                 </div>
-                <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
+                <div className="md:w-1/3 lg:w-1/2 lg:my-auto xl:ml-32 md:ml-20 md:mt-0 lg:pl-10 mt-4 flex flex-col justify-between">
                   <div>
-                    <p className="text-base font-medium leading-6 mt-4 text-gray-600">
+                    <p className="text-base font-medium  mt-4 text-white leading-8">
                       We are pioneers in career guidance and admission
                       assistance.
                       <br />
@@ -145,7 +116,7 @@ export default function Home() {
         <div className="container md:first-line:mt-40 mb-20">
           <div className="md:px-20 px-8 md:py-20">
             <h2 className=" mb-56">Meet Our Executive Members</h2>
-            <div className="flex md:px-40 flex-col items-center justify-center space-y-60 md:space-x-32">
+            <div className="flex md:px-40 flex-col lg:flex-row lg:space-y-0 items-center justify-center space-y-60 md:space-x-32">
               <div className="p-8 w-80 cursor-pointer rounded-lg bg-secondary_light bg-opacity-25 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl">
                 <div className="-mb-32 -translate-y-1/2 transform">
                   <div className="relative ">
@@ -219,7 +190,7 @@ export default function Home() {
         <div className="container md:first-line:mt-40 mb-20">
           <div className="md:px-20 px-8 md:py-20">
             <h2 className="mb-20">Meet Our State members</h2>
-            <div className="grid md:px-40 grid-cols-2 gap-14 items-center justify-center  md:space-x-32">
+            <div className="grid md:px-40 grid-cols-2 lg:grid-cols-6 lg:space-x-0 lg:px-0 gap-14 items-center justify-center   md:space-x-32">
               <div className="p-8 w-full cursor-pointer rounded-lg bg-secondary_light bg-opacity-25 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl">
                 <div className=" -translate-y-1/2 transform">
                   <div className="relative ">
@@ -359,7 +330,7 @@ export default function Home() {
         <div className="container md:first-line:mt-40 mb-20">
           <div className="md:px-20 px-8 md:py-20">
             <h2 className="mb-20">Meet Our Other board members</h2>
-            <div className="grid md:px-40 grid-cols-2 gap-14 items-center justify-center  md:space-x-32">
+            <div className="grid md:px-40 grid-cols-2 lg:grid-cols-6 lg:space-x-0 lg:px-0 gap-14 items-center justify-center  md:space-x-32">
               <div className="p-8 w-full cursor-pointer rounded-lg bg-secondary_light bg-opacity-25 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl">
                 <div className=" -translate-y-1/2 transform">
                   <div className="relative ">
